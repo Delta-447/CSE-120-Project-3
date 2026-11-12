@@ -15,7 +15,7 @@
 class Player extends Phaser.Physics.Arcade.Sprite {
   static preload(scene) {
     ['Body', 'Jump', 'Drive1', 'Drive2', 'Hurt'].forEach(n =>
-      scene.load.image('robot' + n, 'assets/robot_red' + n + '.png'));
+      scene.load.image('robot' + n, 'assets/sprites/robot/robot_red' + n + '.png'));
   }
 
   constructor(scene, x, y, options = {}) {
