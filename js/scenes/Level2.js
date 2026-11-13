@@ -1,20 +1,20 @@
 // Mystical Mountains (Delano) - currently a movement test level.
-// The map is a Tiled file (assets/tilemaps/mountains_test.json) using
+// The map is a Tiled file (assets/tilemaps/movement_test.json) using
 // placeholder tiles, so it can be opened and edited in Tiled.
 class Level2 extends Phaser.Scene {
   constructor() { super('Level2'); }
 
   preload() {
     Player.preload(this);
-    this.load.image('placeholderTiles', 'assets/images/placeholder_tiles.png');
-    this.load.tilemapTiledJSON('mountainsMap', 'assets/tilemaps/mountains_test.json');
+    this.load.image('placeholderTiles', 'assets/tilesets/placeholder/placeholder_tiles.png');
+    this.load.tilemapTiledJSON('movementTestMap', 'assets/tilemaps/movement_test.json');
   }
 
   create() {
     this.cameras.main.setBackgroundColor('#7fa6d9');
 
     // --- Tilemap ---
-    const map = this.make.tilemap({ key: 'mountainsMap' });
+    const map = this.make.tilemap({ key: 'movementTestMap' });
     const tiles = map.addTilesetImage('placeholder_tiles', 'placeholderTiles');
     this.groundLayer = map.createLayer('Ground', tiles, 0, 0);
     this.oneWayLayer = map.createLayer('OneWay', tiles, 0, 0);
