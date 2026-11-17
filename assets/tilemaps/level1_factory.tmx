@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="90" height="20" tilewidth="18" tileheight="18" infinite="0" nextlayerid="9" nextobjectid="12">
+ <editorsettings>
+  <export target="../../../level1_factory.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" source="../tilesets/industrial/industrial.tsx"/>
+ <tileset firstgid="113" source="../tilesets/custom/custom.tsx"/>
  <layer id="3" name="Background" width="90" height="20">
   <data encoding="csv">
 31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,
@@ -53,27 +57,27 @@
   <properties>
    <property name="CrystalCount" type="int" value="1"/>
   </properties>
-  <object id="1" gid="66" x="286.503" y="194.601" width="18" height="18">
+  <object id="1" gid="66" x="286.889" y="194.971" width="18" height="18" rotation="357.595">
    <properties>
     <property name="CrystalCount" type="int" value="1"/>
    </properties>
   </object>
-  <object id="2" gid="66" x="663.311" y="210.862" width="18" height="18">
+  <object id="2" gid="113" x="663.311" y="210.862" width="16" height="16">
    <properties>
     <property name="CrystalCount" type="int" value="1"/>
    </properties>
   </object>
-  <object id="3" gid="66" x="900.499" y="211.422" width="18" height="18">
+  <object id="3" gid="113" x="900.499" y="211.422" width="16" height="16">
    <properties>
     <property name="CrystalCount" type="int" value="1"/>
    </properties>
   </object>
-  <object id="5" gid="66" x="1403.47" y="285.438" width="18" height="18">
+  <object id="5" gid="113" x="1403.47" y="285.438" width="16" height="16">
    <properties>
     <property name="CrystalCount" type="int" value="1"/>
    </properties>
   </object>
-  <object id="6" gid="66" x="1538.54" y="213.827" width="18" height="18">
+  <object id="6" gid="113" x="1538.54" y="213.827" width="16" height="16">
    <properties>
     <property name="CrystalCount" type="int" value="1"/>
    </properties>
@@ -103,7 +107,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,43,43,43,43,43,43,43,43,0,0,0,0,43,43,43,43,43,43,43,43,0,0,0,0,0,0,0,0,0,0,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,115,115,115,115,0,0,0,0,115,115,115,115,115,115,115,115,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,0,0
 </data>
  </layer>
 </map>
